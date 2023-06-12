@@ -1,0 +1,322 @@
+INFO - 2023-06-09 05:57:20 --> CSRF token verified.
+CRITICAL - 2023-06-09 05:57:25 --> Call to undefined method App\Models\AsistenModel::simpan
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AsistenControllerr.php(18): CodeIgniter\Model->__call('simpan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 06:03:11 --> CSRF token verified.
+CRITICAL - 2023-06-09 06:03:11 --> Call to undefined method App\Models\AsistenModel::simpan
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AsistenControllerr.php(18): CodeIgniter\Model->__call('simpan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 06:03:35 --> CSRF token verified.
+CRITICAL - 2023-06-09 06:03:35 --> Call to undefined method App\Models\AsistenModel::simpan
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AsistenControllerr.php(18): CodeIgniter\Model->__call('simpan', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 06:07:25 --> CSRF token verified.
+INFO - 2023-06-09 06:17:30 --> CSRF token verified.
+ERROR - 2023-06-09 06:17:33 --> mysqli_sql_exception: Duplicate entry '123' for key 'PRIMARY' in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\HP OEM\Desktop\ci-testing\app\Models\Asistenmodell.php(15): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\HP OEM\Desktop\ci-testing\app\Controllers\AsistenControllerr.php(18): App\Models\Asistenmodell->simpan(Array)
+#10 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenControllerr->simpan()
+#11 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+#12 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\HP OEM\Desktop\ci-testing\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM...')
+#15 {main}
+CRITICAL - 2023-06-09 06:17:34 --> Duplicate entry '123' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'2,8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'2,8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'2,8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (:nim:, :nama:, :praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\Asistenmodell.php(15): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenControllerr.php(18): App\Models\Asistenmodell->simpan([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->simpan()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 06:18:16 --> CSRF token verified.
+ERROR - 2023-06-09 06:18:16 --> mysqli_sql_exception: Duplicate entry '123' for key 'PRIMARY' in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\HP OEM\Desktop\ci-testing\app\Models\Asistenmodell.php(15): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\HP OEM\Desktop\ci-testing\app\Controllers\AsistenControllerr.php(18): App\Models\Asistenmodell->simpan(Array)
+#10 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenControllerr->simpan()
+#11 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+#12 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\HP OEM\Desktop\ci-testing\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM...')
+#15 {main}
+CRITICAL - 2023-06-09 06:18:16 --> Duplicate entry '123' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'2,8\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'2,8\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'2,8\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (:nim:, :nama:, :praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\Asistenmodell.php(15): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenControllerr.php(18): App\Models\Asistenmodell->simpan([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->simpan()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 06:19:18 --> CSRF token verified.
+INFO - 2023-06-09 07:06:51 --> CSRF token verified.
+CRITICAL - 2023-06-09 07:06:51 --> Call to undefined method App\Models\Asistenmodell::ubah
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\AsistenControllerr.php(37): CodeIgniter\Model->__call('ubah', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 07:13:39 --> CSRF token verified.
+CRITICAL - 2023-06-09 07:13:39 --> Declaration of App\Models\Asistenmodell::update($data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+in APPPATH\Models\Asistenmodell.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-09 07:17:42 --> CSRF token verified.
+CRITICAL - 2023-06-09 07:17:42 --> Declaration of App\Models\Asistenmodell::delete($nim) must be compatible with CodeIgniter\BaseModel::delete($id = null, bool $purge = false)
+in APPPATH\Models\Asistenmodell.php on line 18.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-06-09 07:18:04 --> CSRF token verified.
+INFO - 2023-06-09 07:18:53 --> CSRF token verified.
+INFO - 2023-06-09 08:04:24 --> CSRF token verified.
+INFO - 2023-06-09 08:04:39 --> CSRF token verified.
+INFO - 2023-06-09 08:07:46 --> CSRF token verified.
+INFO - 2023-06-09 08:08:05 --> CSRF token verified.
+INFO - 2023-06-09 08:08:53 --> CSRF token verified.
+INFO - 2023-06-09 08:10:28 --> CSRF token verified.
+INFO - 2023-06-09 08:10:50 --> CSRF token verified.
+INFO - 2023-06-09 08:11:38 --> CSRF token verified.
+INFO - 2023-06-09 08:12:50 --> CSRF token verified.
+INFO - 2023-06-09 08:13:09 --> CSRF token verified.
+CRITICAL - 2023-06-09 08:13:09 --> Undefined array key "pratikum"
+in APPPATH\Views\asisten\search.php on line 20.
+ 1 APPPATH\Views\asisten\search.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pratikum"', 'C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Views\\asisten\\search.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Views\\asisten\\search.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('asisten/search', [], true)
+ 5 APPPATH\Controllers\AsistenControllerr.php(66): view('asisten/search', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->search()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 08:14:19 --> CSRF token verified.
+CRITICAL - 2023-06-09 08:56:39 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('asisten/search', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 13:12:49 --> CSRF token verified.
+ERROR - 2023-06-09 13:12:52 --> mysqli_sql_exception: Duplicate entry '1234' for key 'PRIMARY' in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\HP OEM\Desktop\ci-testing\app\Models\Asistenmodell.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\HP OEM\Desktop\ci-testing\app\Controllers\AsistenControllerr.php(37): App\Models\Asistenmodell->ubah(Array)
+#10 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+#11 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+#12 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\HP OEM\Desktop\ci-testing\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM...')
+#15 {main}
+CRITICAL - 2023-06-09 13:12:52 --> Duplicate entry '1234' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'1234\', \'jelo\', \'sdl\', \'1,0\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'1234\', \'jelo\', \'sdl\', \'1,0\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'1234\', \'jelo\', \'sdl\', \'1,0\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (:nim:, :nama:, :praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\Asistenmodell.php(29): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenControllerr.php(37): App\Models\Asistenmodell->ubah([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 13:13:14 --> CSRF token verified.
+INFO - 2023-06-09 13:16:21 --> CSRF token verified.
+INFO - 2023-06-09 13:16:59 --> CSRF token verified.
+ERROR - 2023-06-09 13:17:00 --> mysqli_sql_exception: Duplicate entry '123456' for key 'PRIMARY' in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\HP OEM\Desktop\ci-testing\app\Models\Asistenmodell.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\HP OEM\Desktop\ci-testing\app\Controllers\AsistenControllerr.php(37): App\Models\Asistenmodell->ubah(Array)
+#10 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+#11 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+#12 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\HP OEM\Desktop\ci-testing\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM...')
+#15 {main}
+CRITICAL - 2023-06-09 13:17:00 --> Duplicate entry '123456' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123456\', \'jiw\', \'platform\', \'3,6\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123456\', \'jiw\', \'platform\', \'3,6\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123456\', \'jiw\', \'platform\', \'3,6\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (:nim:, :nama:, :praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\Asistenmodell.php(29): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenControllerr.php(37): App\Models\Asistenmodell->ubah([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 13:21:30 --> CSRF token verified.
+INFO - 2023-06-09 13:23:30 --> CSRF token verified.
+ERROR - 2023-06-09 13:23:30 --> mysqli_sql_exception: Duplicate entry '123' for key 'PRIMARY' in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\HP OEM\Desktop\ci-testing\app\Models\Asistenmodell.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\HP OEM\Desktop\ci-testing\app\Controllers\AsistenControllerr.php(37): App\Models\Asistenmodell->ubah(Array)
+#10 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+#11 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+#12 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\HP OEM\Desktop\ci-testing\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM...')
+#15 {main}
+CRITICAL - 2023-06-09 13:23:30 --> Duplicate entry '123' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'1,00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'1,00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jelo\', \'sdl\', \'1,00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (:nim:, :nama:, :praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\Asistenmodell.php(29): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenControllerr.php(37): App\Models\Asistenmodell->ubah([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 13:24:03 --> CSRF token verified.
+ERROR - 2023-06-09 13:24:03 --> mysqli_sql_exception: Duplicate entry '123' for key 'PRIMARY' in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `as...', 0)
+#1 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `as...')
+#2 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `as...')
+#3 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `as...', Array, false)
+#4 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\HP OEM\Desktop\ci-testing\app\Models\Asistenmodell.php(29): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\HP OEM\Desktop\ci-testing\app\Controllers\AsistenControllerr.php(37): App\Models\Asistenmodell->ubah(Array)
+#10 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+#11 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+#12 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\Users\HP OEM\Desktop\ci-testing\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM...')
+#15 {main}
+CRITICAL - 2023-06-09 13:24:03 --> Duplicate entry '123' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jeintan\', \'sdl\', \'1,00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jeintan\', \'sdl\', \'1,00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (\'123\', \'jeintan\', \'sdl\', \'1,00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `asisten` (`nim`, `nama`, `praktikum`, `ipk`) VALUES (:nim:, :nama:, :praktikum:, :ipk:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Models\Asistenmodell.php(29): CodeIgniter\BaseModel->save([...])
+10 APPPATH\Controllers\AsistenControllerr.php(37): App\Models\Asistenmodell->ubah([...])
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\AsistenControllerr->update()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AsistenControllerr))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 13:28:53 --> CSRF token verified.
+INFO - 2023-06-09 13:30:45 --> CSRF token verified.
+INFO - 2023-06-09 13:33:01 --> CSRF token verified.
+INFO - 2023-06-09 13:33:20 --> CSRF token verified.
+INFO - 2023-06-09 13:35:47 --> CSRF token verified.
+INFO - 2023-06-09 13:36:29 --> CSRF token verified.
+INFO - 2023-06-09 14:48:47 --> CSRF token verified.
+INFO - 2023-06-09 14:51:17 --> CSRF token verified.
+INFO - 2023-06-09 14:52:12 --> CSRF token verified.
+INFO - 2023-06-09 14:52:19 --> CSRF token verified.
+INFO - 2023-06-09 14:58:41 --> CSRF token verified.
+INFO - 2023-06-09 14:59:31 --> CSRF token verified.
+INFO - 2023-06-09 15:07:43 --> CSRF token verified.
+CRITICAL - 2023-06-09 15:08:19 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('asisten/simpan', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-09 15:08:47 --> CSRF token verified.

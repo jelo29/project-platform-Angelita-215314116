@@ -1,0 +1,50 @@
+INFO - 2023-06-07 07:31:41 --> CSRF token verified.
+CRITICAL - 2023-06-07 07:31:41 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 782
+in SYSTEMPATH\HTTP\RequestTrait.php on line 249.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(782): CodeIgniter\HTTP\Request->fetchGlobal('post', 'usr', 'pwd', null)
+ 2 APPPATH\Controllers\login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('usr', 'pwd')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-07 07:32:40 --> CSRF token verified.
+CRITICAL - 2023-06-07 07:32:40 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 782
+in SYSTEMPATH\HTTP\RequestTrait.php on line 249.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(782): CodeIgniter\HTTP\Request->fetchGlobal('post', 'usr', 'pwd', null)
+ 2 APPPATH\Controllers\login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('usr', 'pwd')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+CRITICAL - 2023-06-07 07:32:46 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 782
+in SYSTEMPATH\HTTP\RequestTrait.php on line 249.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(782): CodeIgniter\HTTP\Request->fetchGlobal('post', 'usr', 'pwd', null)
+ 2 APPPATH\Controllers\login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('usr', 'pwd')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-07 07:38:26 --> CSRF token verified.
+CRITICAL - 2023-06-07 07:38:26 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 782
+in SYSTEMPATH\HTTP\RequestTrait.php on line 249.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(782): CodeIgniter\HTTP\Request->fetchGlobal('post', 'usr', 'pwd', null)
+ 2 APPPATH\Controllers\login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('usr', 'pwd')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-07 07:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-07 07:41:07 --> CSRF token verified.
+CRITICAL - 2023-06-07 07:41:07 --> CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 782
+in SYSTEMPATH\HTTP\RequestTrait.php on line 249.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(782): CodeIgniter\HTTP\Request->fetchGlobal('post', 'usr', 'pwd', null)
+ 2 APPPATH\Controllers\login.php(17): CodeIgniter\HTTP\IncomingRequest->getPost('usr', 'pwd')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')

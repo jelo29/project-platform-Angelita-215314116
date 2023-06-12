@@ -1,0 +1,145 @@
+INFO - 2023-06-12 04:13:45 --> CSRF token verified.
+INFO - 2023-06-12 04:16:39 --> CSRF token verified.
+INFO - 2023-06-12 04:16:55 --> CSRF token verified.
+INFO - 2023-06-12 04:19:52 --> CSRF token verified.
+CRITICAL - 2023-06-12 04:19:52 --> Call to undefined method App\Models\LoginModel::cek
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\Login.php(47): CodeIgniter\Model->__call('cek', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-12 04:20:57 --> CSRF token verified.
+CRITICAL - 2023-06-12 04:20:57 --> Undefined array key "username"
+in APPPATH\Models\loginmodel.php on line 15.
+ 1 APPPATH\Models\loginmodel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Models\\loginmodel.php', 15)
+ 2 APPPATH\Controllers\Login.php(47): App\Models\LoginModel->check([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-12 04:21:31 --> CSRF token verified.
+CRITICAL - 2023-06-12 04:21:31 --> Undefined array key "pwd"
+in APPPATH\Models\loginmodel.php on line 15.
+ 1 APPPATH\Models\loginmodel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pwd"', 'C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Models\\loginmodel.php', 15)
+ 2 APPPATH\Controllers\Login.php(47): App\Models\LoginModel->check([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-12 04:21:55 --> CSRF token verified.
+CRITICAL - 2023-06-12 04:21:55 --> Undefined array key "username"
+in APPPATH\Models\loginmodel.php on line 15.
+ 1 APPPATH\Models\loginmodel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Models\\loginmodel.php', 15)
+ 2 APPPATH\Controllers\Login.php(47): App\Models\LoginModel->check([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-12 04:24:28 --> CSRF token verified.
+CRITICAL - 2023-06-12 04:24:28 --> Undefined array key "username"
+in APPPATH\Models\loginmodel.php on line 15.
+ 1 APPPATH\Models\loginmodel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Models\\loginmodel.php', 15)
+ 2 APPPATH\Controllers\Login.php(47): App\Models\LoginModel->check([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+CRITICAL - 2023-06-12 04:24:33 --> Undefined array key "username"
+in APPPATH\Models\loginmodel.php on line 15.
+ 1 APPPATH\Models\loginmodel.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Models\\loginmodel.php', 15)
+ 2 APPPATH\Controllers\Login.php(47): App\Models\LoginModel->check([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+ERROR - 2023-06-12 04:25:22 --> mysqli_sql_exception: Unknown column 'user' in 'where clause' in C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\Users\HP OEM\Desktop\ci-testing\app\Models\loginmodel.php(15): CodeIgniter\BaseModel->first()
+#7 C:\Users\HP OEM\Desktop\ci-testing\app\Controllers\Login.php(47): App\Models\LoginModel->check(Array)
+#8 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Login->check()
+#9 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#10 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\HP OEM\Desktop\ci-testing\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\HP OEM\Desktop\ci-testing\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM...')
+#13 {main}
+CRITICAL - 2023-06-12 04:25:22 --> Unknown column 'user' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `login`
+WHERE `user` IS NULL
+AND `pwd` IS NULL
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `login`
+WHERE `user` IS NULL
+AND `pwd` IS NULL
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `login`
+WHERE `user` IS NULL
+AND `pwd` IS NULL
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `login`
+WHERE `user` IS NULL
+AND `pwd` IS NULL
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\loginmodel.php(15): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Login.php(47): App\Models\LoginModel->check([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-12 04:26:02 --> CSRF token verified.
+INFO - 2023-06-12 04:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-12 04:26:03 --> Undefined array key "username"
+in APPPATH\Controllers\Login.php on line 50.
+ 1 APPPATH\Controllers\Login.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Controllers\\Login.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-12 04:26:03 --> CSRF token verified.
+INFO - 2023-06-12 04:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-12 04:26:03 --> Undefined array key "username"
+in APPPATH\Controllers\Login.php on line 50.
+ 1 APPPATH\Controllers\Login.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'C:\\Users\\HP OEM\\Desktop\\ci-testing\\app\\Controllers\\Login.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Login->check()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\HP OEM\\Desktop\\ci-testing\\public\\index.php')
+INFO - 2023-06-12 04:26:36 --> CSRF token verified.
+INFO - 2023-06-12 04:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-12 04:33:25 --> CSRF token verified.
+INFO - 2023-06-12 04:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-12 04:34:00 --> CSRF token verified.
+INFO - 2023-06-12 04:34:44 --> CSRF token verified.
+INFO - 2023-06-12 04:45:00 --> CSRF token verified.
+INFO - 2023-06-12 04:46:48 --> CSRF token verified.
+INFO - 2023-06-12 04:50:35 --> CSRF token verified.
+INFO - 2023-06-12 04:54:57 --> CSRF token verified.
+INFO - 2023-06-12 04:55:55 --> CSRF token verified.
+INFO - 2023-06-12 04:56:09 --> CSRF token verified.
+INFO - 2023-06-12 04:57:03 --> CSRF token verified.
+INFO - 2023-06-12 04:57:35 --> CSRF token verified.
+INFO - 2023-06-12 04:57:36 --> CSRF token verified.
+INFO - 2023-06-12 04:57:58 --> CSRF token verified.
+INFO - 2023-06-12 04:58:53 --> CSRF token verified.
